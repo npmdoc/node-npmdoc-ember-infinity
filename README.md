@@ -1,9 +1,14 @@
-# api documentation for  [ember-infinity (v0.2.8)](https://github.com/hhff/ember-infinity#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-infinity.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-infinity) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-infinity.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-infinity)
+# npmdoc-ember-infinity
+
+#### api documentation for  [ember-infinity (v0.2.8)](https://github.com/hhff/ember-infinity#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-infinity.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-infinity) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-infinity.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-infinity)
+
 #### Simple, flexible infinite scroll for Ember CLI Apps.
 
-[![NPM](https://nodei.co/npm/ember-infinity.png?downloads=true)](https://www.npmjs.com/package/ember-infinity)
+[![NPM](https://nodei.co/npm/ember-infinity.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-infinity)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ember-infinity_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ember-infinity/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ember-infinity/build/screenCapture.npmPackageListing.svg)
 
@@ -74,13 +79,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "hhff",
-            "email": "me@hughfrancis.me"
+            "name": "hhff"
         }
     ],
     "name": "ember-infinity",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hhff/ember-infinity.git"
@@ -92,50 +95,6 @@
     },
     "version": "0.2.8"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ember-infinity](#apidoc.module.ember-infinity)
-1.  [function <span class="apidocSignatureSpan">ember-infinity.</span>included (app)](#apidoc.element.ember-infinity.included)
-1.  [function <span class="apidocSignatureSpan">ember-infinity.</span>init ()](#apidoc.element.ember-infinity.init)
-1.  string <span class="apidocSignatureSpan">ember-infinity.</span>name
-
-
-
-# <a name="apidoc.module.ember-infinity"></a>[module ember-infinity](#apidoc.module.ember-infinity)
-
-#### <a name="apidoc.element.ember-infinity.included"></a>[function <span class="apidocSignatureSpan">ember-infinity.</span>included (app)](#apidoc.element.ember-infinity.included)
-- description and source-code
-```javascript
-included = function (app) {
-  this.addons.forEach(function(addon){
-    if (addon.name === "ember-version-is") {
-      addon.included.apply(addon, [app]);
-    }
-  });
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.ember-infinity.init"></a>[function <span class="apidocSignatureSpan">ember-infinity.</span>init ()](#apidoc.element.ember-infinity.init)
-- description and source-code
-```javascript
-init = function () {
-  if (this._super.init) {
-    this._super.init.apply(this, arguments);
-  }
-  checker.assertAbove(this, '0.2.0');
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
